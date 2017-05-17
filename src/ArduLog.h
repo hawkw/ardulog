@@ -22,7 +22,7 @@
             Serial.print(F(":"));                      \
             Serial.print(String(_LINE__));             \
             Serial.print(F(":"));                      \
-            Serial.print(F(__PRETTY_FUNCTION__));      \
+            Serial.print(__PRETTY_FUNCTION__);      \
             Serial.print(F(": "));                     \
             Serial.print(F(msg));                      \
             }  while (0)
@@ -32,7 +32,7 @@
             Serial.print(F(":"));                      \
             Serial.print(String(_LINE__));             \
             Serial.print(F(":"));                      \
-            Serial.print(F(__PRETTY_FUNCTION__));      \
+            Serial.print(__PRETTY_FUNCTION__);      \
             Serial.print(F(": "));                     \
             Serial.print(F(msg));                      \
             }  while (0)
