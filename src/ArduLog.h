@@ -20,9 +20,9 @@
         do {                                           \
             Serial.print(F(__FILE__));                 \
             Serial.print(F(":"));                      \
-            Serial.print(String(__LINE__));             \
+            Serial.print(String(__LINE__));            \
             Serial.print(F(":"));                      \
-            Serial.print(__PRETTY_FUNCTION__);      \
+            Serial.print(__PRETTY_FUNCTION__);         \
             Serial.print(F(": "));                     \
             Serial.print(F(msg));                      \
             }  while (0)
@@ -30,11 +30,11 @@
         do {                                           \
             Serial.print(F(__FILE__));                 \
             Serial.print(F(":"));                      \
-            Serial.print(String(__LINE__));             \
+            Serial.print(String(__LINE__));            \
             Serial.print(F(":"));                      \
-            Serial.print(__PRETTY_FUNCTION__);      \
+            Serial.print(__PRETTY_FUNCTION__);         \
             Serial.print(F(": "));                     \
-            Serial.println(F(msg));                      \
+            Serial.println(F(msg));                    \
             }  while (0)
 #else
     #define DEBUG(msg) do { } while (0)
