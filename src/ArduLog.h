@@ -34,7 +34,7 @@
             Serial.print(F(":"));                      \
             Serial.print(__PRETTY_FUNCTION__);      \
             Serial.print(F(": "));                     \
-            Serial.print(F(msg));                      \
+            Serial.println(F(msg));                      \
             }  while (0)
 #else
     #define DEBUG(msg) do { } while (0)
