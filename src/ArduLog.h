@@ -20,7 +20,7 @@
         do {                                           \
             Serial.print(F(__FILE__));                 \
             Serial.print(F(":"));                      \
-            Serial.print(String(_LINE__));             \
+            Serial.print(String(__LINE__));             \
             Serial.print(F(":"));                      \
             Serial.print(__PRETTY_FUNCTION__);      \
             Serial.print(F(": "));                     \
@@ -30,7 +30,7 @@
         do {                                           \
             Serial.print(F(__FILE__));                 \
             Serial.print(F(":"));                      \
-            Serial.print(String(_LINE__));             \
+            Serial.print(String(__LINE__));             \
             Serial.print(F(":"));                      \
             Serial.print(__PRETTY_FUNCTION__);      \
             Serial.print(F(": "));                     \
