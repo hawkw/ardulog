@@ -1,0 +1,16 @@
+{ "name": "ArduLog"
+, "keywords": "arduino, logging, serial"
+, "description": "simple logging macros for Arduino etc"
+, "repository":
+ { "type": "git"
+ , "url": "https://github.com/hawkw/ardulog" }
+, "authors":
+ { "name": "Eliza Weisman"
+  , "email": "eliza@elizas.website"
+  , "url": "http://elizas.website"
+  , "maintainer": true }
+, "version": "0.1"
+, "frameworks": "arduino"
+, "platforms": "atmelavr"
+, "include": "src"
+}
